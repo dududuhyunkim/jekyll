@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://jekyll.dududuhyun.kim/sitemap.xml
+Sitemap: https://DavideBri.github.io/sitemap.xml
