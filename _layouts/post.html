@@ -18,6 +18,18 @@ layout: default
     {% for tag in page.tags %}
     <a href="{{ site.url }}{{ site.baseurl }}/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
   {{ content }}
+
+  <hr/>
+
+  <script src="https://utteranc.es/client.js"
+          repo="[ENTER REPO HERE]"
+          issue-term="title"
+          label="utterances"
+          theme="preferred-color-scheme"
+          crossorigin="anonymous"
+          async>
+  </script>
+
 </section>
 
 <section>
@@ -36,15 +48,4 @@ layout: default
     {% endif %}
 
   </nav>
-</section>
-
-<section>
-  <script src="https://utteranc.es/client.js"
-          repo="[ENTER REPO HERE]"
-          issue-term="title"
-          label="utterances"
-          theme="preferred-color-scheme"
-          crossorigin="anonymous"
-          async>
-  </script>
 </section>
